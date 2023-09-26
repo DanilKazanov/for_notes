@@ -49,8 +49,8 @@ title: "Epic: Избавление от isomorphic-git"
 
    Минусы:
 
-   1. Не работает нормально на Andorid. [Ссылка на issue](<https://github.com/rust-lang/git2-rs/issues/920>). (Не тестили на ios).
+   1. Не работает нормально на Andorid. [Ссылка на issue](https://github.com/rust-lang/git2-rs/issues/920). (Не тестили на ios).
 
    Решение минусов:
 
-   1. ¯\\\_(ツ)\_/¯
+   1. Отключить проверку сертификатов, но это небезопасно
