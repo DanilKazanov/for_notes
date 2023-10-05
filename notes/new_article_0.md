@@ -21,4 +21,4 @@ title: "Epic: Gitlab Enterprise Server"
 
    -  Пока не придумали безопасного решения без использования сервера
 
-   -  После того, как появится [ics-it.app.gram.ax](https://ics-it.app.gram.ax), уберём возможность создавать review ссылки в [gram.ax](https://gram.ax)
+   -  После того, как появится [ics-it.app.gram.ax](https://ics-it.app.gram.ax), уберём возможность создавать review ссылки в [app.gram.ax](https://gram.ax)
