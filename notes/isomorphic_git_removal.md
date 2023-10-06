@@ -3,7 +3,7 @@ order: 0
 title: "Epic: Избавление от isomorphic-git"
 ---
 
--  В браузерной версии будет использоваться [wasm-git](https://github.com/petersalomonsen/wasm-git). Это биндги libgit2 на javascript.
+-  В браузерной версии будет использоваться [wasm-git](https://github.com/petersalomonsen/wasm-git). Это биндинги libgit2 на javascript.
 
    Плюсы:
 
