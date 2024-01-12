@@ -1,5 +1,5 @@
 ---
-order: .nan
+order: 3
 title: Тесты
 ---
 

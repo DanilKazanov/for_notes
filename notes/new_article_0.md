@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 title: "Epic: Gitlab Enterprise Server"
 ---
 
