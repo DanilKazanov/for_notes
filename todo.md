@@ -12,5 +12,3 @@ title: TODO LIST
 -  в [gram.ax/resources](http://gram.ax/resources) слетает скролл и стрелки навигации
 
 -  спросить у Кати, что лучше сделать: PullHandler или SyncHandler
-
--  подумать над тем, чтобы можно было подписаться на branchUpdateService. По типу addEventListener
