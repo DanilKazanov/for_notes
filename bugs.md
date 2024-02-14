@@ -7,4 +7,4 @@ title: Баги
 
 2. При неудачном пулле, все изменения (недопуленные) остаются в wokrdir и потом появляются как изменения в публикации изменений.
 
-3. Ссылка “<https://dev.gram.ax/gitlab.ics-it.ru/dr/gramax-board/>” выдаёт ошибку
+3. Ссылка “<https://dev.gram.ax/gitlab.ics-it.ru/dr/gramax-board/>” выдаёт ошибку.
