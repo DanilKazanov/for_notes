@@ -50,3 +50,5 @@ title: TODO LIST
 -  Не переключается сразу с `master` на `master-test` в каталоге “for_notes”, нужно обновлять страницу
 
 -  Исправить баг в github <https://github.com/Gram-ax/gramax/issues/2>
+
+-  Создать us на сохранение стейта после обновления
