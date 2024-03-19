@@ -38,3 +38,5 @@ title: TODO LIST
 -  Исправить баг в github <https://github.com/Gram-ax/gramax/issues/2>
 
 -  Сделать заявку на удаление раздела в gramax-board, ветка kanban (не видно, что удалены статьи)
+
+-  Исправить ошибку с fileStatus, если пустой репозиторий (нету файлов) например test-file-gx из github
