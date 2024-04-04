@@ -10,3 +10,5 @@ title: Баги
 3. Ссылка “<https://dev.gram.ax/gitlab.ics-it.ru/dr/gramax-board/>” выдаёт ошибку.
 
 4. \+3
+
+[snippet:qqq]
