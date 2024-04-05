@@ -1,5 +1,5 @@
 ---
 title: Заметки
-order: 2
+order: 1
 ---
 
