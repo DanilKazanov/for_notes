@@ -31,6 +31,8 @@ title: TODO LIST
 
 -  Исправить ошибку с fileStatus, если пустой репозиторий (нету файлов) например test-file-gx из github
 
--  Добавить в тестовый e2e реп сниппеты и табы
+-  Добавить e2e для табов
+
+-  Начать делать US из \[rtd\] в 
 
 -  Посмотреть логи mdt у Олеси (ссылка на саппорт - <https://support.ics-it.ru/issue/GXS-1665>, ссылка на логи - <https://dev.gram.ax/gitlab.ics-it.ru/olesya.andreeva/new-catalog33/master/-/11>)
