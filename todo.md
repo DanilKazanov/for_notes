@@ -33,6 +33,8 @@ title: TODO LIST
 
 -  Добавить e2e для табов
 
--  Начать делать US из \[rtd\] в 
+-  Начать делать US из \[rtd\] в
 
 -  Посмотреть логи mdt у Олеси (ссылка на саппорт - <https://support.ics-it.ru/issue/GXS-1665>, ссылка на логи - <https://dev.gram.ax/gitlab.ics-it.ru/olesya.andreeva/new-catalog33/master/-/11>)
+
+-  Посмотреть логи у Саши М (на рабочем столе json файл) и у Петра (в мессенджере)
