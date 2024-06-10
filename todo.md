@@ -65,4 +65,4 @@ title: TODO LIST
    ORIGIN CHANGE
    ```
 
-
+-  После решения конфликта не обновляется навигация (нужно catalog’ом подписываться на изменения baseMergeConflictResolver)
