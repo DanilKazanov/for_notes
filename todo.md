@@ -37,4 +37,4 @@ title: TODO LIST
 
    -   
 
--   
+-  Подумать над `isStaged: (path: Path): boolean` . Если быстро, то попросить Пашу написать
