@@ -1,0 +1,16 @@
+- description: Фикс GXS-2020
+  target: master
+  author:
+    name: DanilKazanov
+    email: danil.kazanov@ics-it.ru
+  assignees:
+  - name: Danil Kazanov
+    email: danil.kazanov@ics-it.ru
+  - name: Pavel Smirnov
+    email: pavel.smirnov@ics-it.ru
+  - name: Stanislav Yargunkin
+    email: stanislav.yargunkin@ics-it.ru
+  createdAt: 1733406719
+  createdAtOid: '9ee7d57653b3b31de97127e3262485aa1b3b256c'
+  options:
+    deleteAfterMerge: 'false'
