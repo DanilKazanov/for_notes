@@ -7,7 +7,7 @@ title: Неподдерживаемые мердж конфликты
 
 1. В текущей ветке ветке добавили файл “a”, в другой ветке тоже добавили файл “a”, но у них разный контент.
 
-[drawio:./nepodderzhivaemye-merdzh-konflikty.svg::211px:101px]
+[drawio:./nepodderzhivaemye-merdzh-konflikty.svg:123:211px:101px]
 
 [mermaid:./nepodderzhivaemye-merdzh-konflikty.mermaid:501px:363px]
 
