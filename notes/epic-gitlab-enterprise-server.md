@@ -9,8 +9,6 @@ title: "Epic: Gitlab Enterprise Server"
 
    -  В gitlab будет специальный пользователь для review. У этого пользователя будут хранится review репозитории
 
-      ![](./epic-gitlab-enterprise-server.png){width=430px height=181px}
-
    -  В gitlab будет специальный пользователь с ролью как минимум Maintainer, у которого будет доступ для того, чтобы добавлять вебхуки в репозитории
 
    -  При формировании ссылки для ревью, будет создаваться в гитлабе review репозиторий
@@ -24,3 +22,7 @@ title: "Epic: Gitlab Enterprise Server"
    -  Пока не придумали безопасного решения без использования сервера
 
    -  После того, как появится [ics-it.app.gram.ax](https://ics-it.app.gram.ax), уберём возможность создавать review ссылки в [app.gram.ax](https://gram.ax)
+
+   -  awd
+
+      ![](./epic-gitlab-enterprise-server.png){width=1433px height=76px}
