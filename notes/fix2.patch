@@ -1,0 +1,43 @@
+diff --git a/apps/next/crates/next-gramax-git/src/lib.rs b/apps/next/crates/next-gramax-git/src/lib.rs
+index ef30ac811..a44515269 100644
+--- a/apps/next/crates/next-gramax-git/src/lib.rs
++++ b/apps/next/crates/next-gramax-git/src/lib.rs
+@@ -77,8 +77,8 @@ impl From<TreeReadScope> for gramaxgit::commands::TreeReadScope {
+     let name = val.reference.unwrap_or_default();
+     match val.object_type {
+       TreeReadScopeObjectType::Head => TreeReadScope::Head,
+-      TreeReadScopeObjectType::Commit => TreeReadScope::Commit { oid: name },
+-      TreeReadScopeObjectType::Reference => TreeReadScope::Reference { name },
++      TreeReadScopeObjectType::Commit => TreeReadScope::Commit { commit: name },
++      TreeReadScopeObjectType::Reference => TreeReadScope::Reference { reference: name },
+     }
+   }
+ }
+diff --git a/crates/git/src/commands.rs b/crates/git/src/commands.rs
+index 4cf77edb2..ec9f99ba6 100644
+--- a/crates/git/src/commands.rs
++++ b/crates/git/src/commands.rs
+@@ -49,10 +49,10 @@ pub enum TreeReadScope {
+   #[default]
+   Head,
+   Commit {
+-    oid: String,
++    commit: String,
+   },
+   Reference {
+-    name: String,
++    reference: String,
+   },
+ }
+ 
+@@ -60,8 +60,8 @@ impl TreeReadScope {
+   pub fn with<C: Creds>(self, repo: &Repo<C>) -> Result<RepoTreeScope<C>> {
+     let tree = match self {
+       TreeReadScope::Head => repo.read_tree_head()?,
+-      TreeReadScope::Commit { oid } => repo.read_tree_commit(oid.parse().map_err(Error::from)?)?,
+-      TreeReadScope::Reference { name } => repo.read_tree_reference(&name)?,
++      TreeReadScope::Commit { commit } => repo.read_tree_commit(commit.parse().map_err(Error::from)?)?,
++      TreeReadScope::Reference { reference } => repo.read_tree_reference(&reference)?,
+     };
+     Ok(tree)
+   }
