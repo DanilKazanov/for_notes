@@ -1,0 +1,8 @@
+creator: DanilKazanov <danil.kazanov@ics-it.ru>
+targetBranch: develop
+createdAt: '2025-01-22 13:38:11'
+approvers:
+- user: Danil Kazanov <danil.kazanov@ics-it.ru>
+options:
+  deleteAfterMerge: false
+description: '1'
