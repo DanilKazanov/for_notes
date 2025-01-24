@@ -3,7 +3,7 @@ order: 2
 title: "Epic: Gitlab Enterprise Server"
 ---
 
--  Для Enterprise:d
+-  Для Enterprise:dd
 
    -  У нас будет Gitlab Enterprise Server на домене [ics-it.app.gram.ax](https://ics-it.app.gram.ax)
 
