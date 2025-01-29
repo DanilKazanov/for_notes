@@ -7,4 +7,6 @@ title: Плагины
 
 фцвфцвфцвфцвцф
 
+новая картинка
 
+![](./plaginy.png){width=390px height=257px}

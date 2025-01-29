@@ -7,9 +7,9 @@ title: "Epic: Gitlab Enterprise Server"
 
    -  У нас будет Gitlab Enterprise Server на домене [ics-it.app.gram.ax](https://ics-it.app.gram.ax)
 
-   -  В gitlab будет специальный пользователь для review. У этого пользователя будут хранится review репозитории
+   -  В gitlab будет специальный пользователь для rsfefsefeview. У этого пользователя будут хранится review репозитории
 
-      ![](./epic-gitlab-enterprise-server.png){width=430px height=181px}
+   -  новый текст
 
    -  В gitlab будет специальный пользователь с ролью как минимум Maintainer, у которого будет доступ для того, чтобы добавлять вебхуки в репозитории
 
